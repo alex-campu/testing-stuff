@@ -13,12 +13,12 @@
 
 const API_URL = 'https://swapi.dev/api/'
 const PEOPLE_URL = 'people/:id'
-var character = prompt("gimmi a  number from 1 to 83, and I will give u a  starwars character, and his/her eye color")
+var character = prompt("gimme a  number from 1 to 83, and I will give u a  starwars character, and his/her eye color")
 const lukeUrl = `${API_URL}${PEOPLE_URL.replace(':id', character)}`
 const opts = { crossDomain: true }
 
 // $.get(lukeUrl, opts, function(luke){
-//     console.log(`hello this is ${luke.name}, and my eyes are color ${luke.eye_color}`)
+//     console.log(`hello this is ${luke.name}, and my eyes are  ${luke.eye_color}`)
 
 // })
 
